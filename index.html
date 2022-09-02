@@ -28,16 +28,15 @@
     }
     
     #box-shadow {
-      border: 0.5px solid rgba(4, 113, 46, 0.25);
-      box-shadow: -3px -2px 10px rgba(4, 113, 46, 0.5);
+      box-shadow: -20px -20px 30px rgba(0, 0, 0, 0.5);
     }
 
     #drop-shadow {
-      border: 0.5px solid rgba(4, 113, 46, 0.25);
-      filter: drop-shadow(0px 0px 10px rgba(4, 113, 46, 0.5));
+      filter: drop-shadow(-20px -20px 15px rgba(0, 0, 0, 0.5));
     }
 
     .desc {
+      text-align: center;
       color: rgba(0, 0, 0, 0.6);
       margin: 0px;
       font-family: Georgia, 'Times New Roman', Times, serif;
@@ -48,12 +47,12 @@
 <body>
   <main>
     <article>
-      <img src="./image.png" alt="" class="treeImage" id="box-shadow" />
+      <img src="./image1.png" alt="" class="treeImage" id="box-shadow" />
       <h3>Box Shadow</h3>
       <p class="desc">Adds shadow effects around image's frame</p>
     </article>
     <article>
-      <img src="./image.png" alt="" class="treeImage" id="drop-shadow" />
+      <img src="./image1.png" alt="" class="treeImage" id="drop-shadow" />
       <h3>Drop Shadow</h3>
       <p class="desc">Applies a drop shadow effect to the input image</p>
     </article>
